@@ -1,0 +1,103 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #454545;
+}
+
+div#middle {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#stack {
+    height: 12rem;
+    width: auto;
+    position: absolute;
+    border-radius: 1rem;
+}
+#main-familly {
+    height: 12rem;
+    width: auto;
+    position: absolute;
+    z-index: -1;
+    border-radius: 1rem;
+    transform: rotate(90deg) translateY(-40%);
+}
+
+div#my-cards {
+    height: 12rem;
+    width: 24rem;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.card {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 200ms;
+}
+div.card:hover {
+    transform: translateY(-2rem);
+}
+div.card img {
+    height: 100%;
+    width: auto;
+    border-radius: 1rem;
+}
+
+div#middle-cards {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#first-card {
+    height: 15rem;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+    border-radius: 1rem;
+    transform: translateX(-50%) translateY(-50%) rotate(-87deg);
+}
+#second-card {
+    height: 15rem;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 1rem;
+    transform: translateX(-50%) translateY(-50%) rotate(23deg);
+}
+
+div#ennemy-cards {
+    height: 12rem;
+    width: 24rem;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.card-ennemy {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.card-ennemy img {
+    height: 100%;
+    width: auto;
+    border-radius: 1rem;
+}
