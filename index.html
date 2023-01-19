@@ -19,18 +19,28 @@
             <img src="./images/cards/baton/10.jpg" id="main-familly">
         </div>
         <div id="my-cards">
-           <div class="card"><img src="./images/cards/baton/1.jpg"></div>
-           <div class="card"><img src="./images/cards/baton/2.jpg"></div>
-           <div class="card"><img src="./images/cards/baton/3.jpg"></div>
+           <div class="card"><img src="./images/cards/baton/1.jpg" id="card1" onclick="PlaceCard(0);"></div>
+           <div class="card"><img src="./images/cards/baton/2.jpg" id="card2" onclick="PlaceCard(1);"></div>
+           <div class="card"><img src="./images/cards/baton/3.jpg" id="card3" onclick="PlaceCard(2);"></div>
         </div>
+        <div id="my-deck">
+            <p id="my-deck-count">40</p>
+            <div class="deck"><img src="./images/cards/dos.png"></div>
+         </div>
         <div id="middle-cards">
             <img src="./images/cards/coupe/5.jpg" id="first-card">
             <img src="./images/cards/epee/2.jpg" id="second-card">
         </div>
         <div id="ennemy-cards">
-            <div class="card-ennemy"><img src="./images/cards/dos.png"></div>
+            <div class="card-ennemy" id="removable"><img src="./images/cards/dos.png"></div>
             <div class="card-ennemy"><img src="./images/cards/dos.png"></div>
             <div class="card-ennemy"><img src="./images/cards/dos.png"></div>
          </div>
+         <div id="ennemy-deck">
+             <div class="deck"><img src="./images/cards/dos.png"></div>
+             <p id="ennemy-deck-count">40</p>
+         </div>
+
+         <script src="./js/script.js"></script>
     </body>
 </html>
